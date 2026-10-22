@@ -1,0 +1,95 @@
+Canvas Instructions by my Proffessor:
+
+1)
+
+Write a program prompts a user to enter two dates - their birth date and the current date. Use these inputs to calculate and print their age. Run this entire program in an infinite loop (while (true)).
+
+ 
+
+2)
+
+I require this program to use the following two (2) functions:
+
+   a)
+
+   The first function should be named isValidDate.
+
+   It should return a boolean (true/false) value, and it should be called repeatedly in a loop until a user enters a valid date.
+
+   It should take three (3) arguments - the values the user input for the day, month, and year.
+
+  This function should be used to check the validity of both the current date and the birth date.
+
+  
+
+   For simplicity, you can use the following conditions to determine if the date is "valid":
+
+ 
+
+     i)
+
+      The day should not be greater than 31 (no month has more than 31 days).
+
+      Again, for simplicity, I won't ask you to deal with which month has a certain number of days, leap years, etc.
+
+ 
+
+      ii)
+
+      The month should not be greater than 12.
+
+ 
+
+      iii)
+
+      The year should be between 1900 and 2025 (no birth date before 1900 and we are not going into the future).
+
+ 
+
+  Sample output of this function's execution is shown in the screenshot below:
+
+ Terminal output showing a prompt for birth month, day, and year; an "Invalid date entered" message; a repeated prompt; and a prompt for the current date.  
+
+  
+
+   b)
+
+   The second function should return an integer value and be named calculateAge.
+
+   It should take six (6) arguments - ex: birthMonth, currentMonth, currentDay, birthYear, etc.
+
+   It should compare currentMonth to birthMonth (and currentDay to birthDay if needed) to correctly calculate the user's age.
+
+ 
+
+   Sample output of this function's execution is shown in the screenshot below:
+
+output
+
+ 
+
+Note that two different user ages have been calculated here and a third user is prompted in the final line (remember that I asked you to run this age calculator in an infinite loop).
+
+ 
+
+2)
+
+Before submission, run and test your program with (at least) the following 4 input pairs (birth date on left, current date on right):
+
+10-20-1990      10-19-2025
+
+10-05-2000      10-19-2025
+
+01-02-2003      10-19-2025
+
+11-19-2021      10-19-2025
+
+ 
+
+Note that I give these in MM-DD-YYYY format only in an effort to increase readability here. Your user inputs can be in the form shown in the sample output screenshots (enter month, day, and year separately and store in separate integer variables).
+
+ 
+
+3)
+
+Submit the cpp file.
